@@ -1,0 +1,26 @@
+.product-box-container {
+	height: 300px;
+	width: 100%;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 22px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 22px -8px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 22px -8px rgba(0,0,0,0.75);
+	overflow: hidden;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title-container {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+  align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(0,0,0,0.10);
+	color: #ffffff;
+	font-weight: bold;
+}
